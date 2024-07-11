@@ -125,9 +125,7 @@ h2 {
 }
  
 /* in piani-abbonamento */
-.piani-abbonamento,
-.dropbox-funzionalità /*proprietà che sta in .dropbox-funzionalità */
-{ 
+.piani-abbonamento { 
     padding-top: 100px;
 }
 
@@ -160,9 +158,15 @@ h2 {
 }
 
 /* in dropbox-funzionalità */
-
+.dropbox-funzionalità {
+    padding-top: var(--sec-pd-xxxl);
+}
 
 /* in utilizzatori-dropbox-business */
+.utilizzatori-dropbox-business {
+    padding-top: var(--sec-pd-xxxl)
+}
+
 /* designit */
 /* inizia-ora */
 /* domande-frequenti */

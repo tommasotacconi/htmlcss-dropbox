@@ -1,8 +1,11 @@
 /* Utilities */
 :root {
     --nav-pd: 5px;
-    --bg-pd-sm: 15px;
-    --bg-pd-lg: 40px;
+    --sec-pd-sm: 250px;
+    --sec-pd-lg: 40px;
+    --sec-pd-xl: 50;
+    --sec-pd-xxl: 100px;
+    --sec-pd-xxxl: 130px;
     --mh-sm: 50px;
     --mh-lg: 250px;
     --mh-xl: 300px;
