@@ -65,9 +65,12 @@ ul {
 
 h1 {
     margin-bottom: 20px;
+    font-size: 4rem;
 }
 
 /* Utilities */
+
+/* in header */
 .header-logo img {
     display: block;
     margin: 0 10px;
@@ -77,6 +80,7 @@ h1 {
     margin-right: 10px;
 }
 
+/* in .sezione-jumbotrone */
 .sezione-jumbotrone {
     margin-top: 60px;
 }
@@ -105,5 +109,20 @@ h1 {
     position: absolute;
     top: 0;
     left: -10px;
-    height: 300px;
+    height: 400px;
 }
+
+.container-jumbotrone span {
+    font-size: 2rem;
+}
+
+.container-jumbotrone p:last-of-type{
+    margin-bottom: 50px;
+}
+
+/* in dropbox-funzionalità */
+/* in utilizzatori-dropbox-business */
+/* designit */
+/* inizia-ora */
+/* domande-frequenti */
+/* in footer */
