@@ -109,7 +109,7 @@ h1 {
     position: absolute;
     top: 0;
     left: -10px;
-    height: 400px;
+    height: 350px;
 }
 
 .container-jumbotrone span {
@@ -119,6 +119,41 @@ h1 {
 .container-jumbotrone p:last-of-type{
     margin-bottom: 50px;
 }
+ 
+/* in piani-abbonamento */
+.piani-abbonamento {
+    padding-top: 100px;
+}
+
+.selezione-fatturazione {
+    display: inline-block;
+    margin: 50px 20px 30px 0;
+}
+
+.column-one-third {
+    flex: 0 1 calc(100% / 3 - 60px / 3);
+    min-height: 500px;
+}
+
+.column-three-third {
+    flex-grow: 1;
+    min-height: 200px;
+}
+
+.card-partner-dropbox {
+    min-height: var(--mh-xl);
+    margin-top: 80px
+}
+
+.text-partner-dropbox {
+    flex-basis: 40%;
+}
+
+.card-partner-dropbox figure{
+    flex-grow: 1
+}
+
+
 
 /* in dropbox-funzionalità */
 /* in utilizzatori-dropbox-business */

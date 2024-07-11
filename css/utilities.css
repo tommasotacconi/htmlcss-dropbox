@@ -67,6 +67,10 @@
     flex-basis: 200px;
 }
 
+.gap-sm {
+    gap: 30px;
+}
+
 .bdColor-cielo {
     background-color: skyblue;
 }
@@ -85,4 +89,12 @@
 
 .bdColor-black {
     background-color: black;
+}
+
+.bdColor-blu-ardesia{
+    background-color: slateblue;
+}
+
+.bdColor-argento{
+    background-color: silver;
 }
