@@ -14,7 +14,7 @@
 .container-lg {
     max-width: 900px;
     margin: 0 auto;
-    min-height: var(--mh-sm);
+    min-height: var(--mh-xl);
     /* border: 3px dashed burlywood; */
 }
 
@@ -67,8 +67,8 @@
     flex-basis: 200px;
 }
 
-.bdColor-paglia {
-    background-color: burlywood;
+.bdColor-cielo {
+    background-color: skyblue;
 }
 
 .bdColor-blu-cadetto {

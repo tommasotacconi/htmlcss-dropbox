@@ -21,6 +21,14 @@ header {
     height: 60px;
 }
 
+main > div {
+    min-height: 450px;
+}
+
+section {
+    min-height: 450px
+}
+
 footer {
     padding: 30px;
     color: white;
@@ -55,6 +63,10 @@ ul {
     }
 }
 
+h1 {
+    margin-bottom: 20px;
+}
+
 /* Utilities */
 .header-logo img {
     display: block;
@@ -63,4 +75,35 @@ ul {
 
 .btn-start {
     margin-right: 10px;
+}
+
+.sezione-jumbotrone {
+    margin-top: 60px;
+}
+
+.container-jumbotrone {
+    padding-top: 100px;
+    padding-right: 100px;
+}
+
+.btn-start-trial {
+    margin: 30px 0;
+}
+
+.container-jumbotrone figure {
+    width: 60%;
+    min-height: var(--mh-sm);
+    float: right;
+    position: relative;
+}
+
+.left-side-text {
+    width: 40%;
+}
+
+.container-jumbotrone img {
+    position: absolute;
+    top: 0;
+    left: -10px;
+    height: 300px;
 }
