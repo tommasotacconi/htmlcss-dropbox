@@ -72,6 +72,12 @@ h2 {
     margin-bottom: 50px;
 }
 
+hr {
+    width: 20%;
+    margin: 50px 0;
+    border: 0.5px solid lightgrey;
+}
+
 /* Utilities */
 
 /* in header */
@@ -167,7 +173,33 @@ h2 {
     padding-top: var(--sec-pd-xxxl)
 }
 
-/* designit */
+/* big-company-using-dropbox */
+.big-company-using-dropbox > .row {
+    height: 450px;
+}
+
+.big-company-using-dropbox .column {
+    flex-basis: calc(100% / 3);
+}
+
+.side-card-subcontainer, central-card {
+    min-height: 100%;
+}
+
+.side-card-subcontainer .card {
+    flex-basis: 50%;
+    flex-shrink: 0;
+}
+
+.central-card {
+    padding: 30px;
+    height: 100%;
+}
+
+.big-company-using-dropbox .central-card p {
+    margin-bottom: 60px;
+}
+
 /* inizia-ora */
 /* domande-frequenti */
 /* in footer */
