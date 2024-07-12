@@ -50,6 +50,12 @@
     display: flex;
 }
 
+.flex-row-align-center {
+    display: flex;
+    align-items: center;
+    /* gap: var(--space); */
+}
+
 .flex-row-center {
     display: flex;
     justify-content: center;
@@ -75,12 +81,6 @@
 
 .flex-align-center {
     align-items: center;
-}
-
-.flex-row-align-center {
-    display: flex;
-    align-items: center;
-    /* gap: var(--space); */
 }
 
 .flex-end {
