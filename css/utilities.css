@@ -17,7 +17,9 @@
     --mh-xxxl: 700px;
 }
 
-
+.text-aling-right{
+    text-align: right;
+}
 .container-lg {
     max-width: 900px;
     margin: 0 auto;
@@ -43,6 +45,11 @@
     display: flex;
 }
 
+/* Assegna display:flex ai figli diretti */
+.childs-d-flex- > * {
+    display: flex;
+}
+
 .flex-row-center {
     display: flex;
     justify-content: center;
@@ -50,10 +57,20 @@
     /* gap: var(--space); */
 }
 
+.childs-flex-row-center > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .flex-row-space-between {
     display: flex;
     justify-content: space-between;
-    
+}
+
+.childs-flex-row-space-between > * {
+    display: flex;
+    justify-content: space-between;
 }
 
 .flex-align-center {
