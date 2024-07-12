@@ -53,6 +53,10 @@
 .flex-row-space-between {
     display: flex;
     justify-content: space-between;
+    
+}
+
+.flex-align-center {
     align-items: center;
 }
 
@@ -90,7 +94,7 @@
     background-color: cadetblue;
 }
 
-.bdColor-blu-lavanda {
+.bdColor-blu-tenue {
     background-color: cornflowerblue ;
 }
 
@@ -102,7 +106,7 @@
     background-color: black;
 }
 
-.bdColor-blu-ardesia{
+.bdColor-blu-ardesia {
     background-color: slateblue;
 }
 

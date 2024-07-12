@@ -104,6 +104,10 @@ hr {
     margin: 30px 0;
 }
 
+.btn-start-trial::before {
+    content: "Inizia la tua prova gratuita";
+}
+
 .container-jumbotrone figure {
     width: 60%;
     min-height: var(--mh-sm);
@@ -207,5 +211,28 @@ hr {
 }
 
 /* inizia-ora */
+.inizia-ora {
+    padding: var(--sec-pd-xxxl) 0;
+    min-height: 0;
+}
+
+.container-inizia-ora.container-lg {
+    min-height: 0;
+}
+
+.inizia-ora h2,
+.inizia-ora .button-container {
+    min-height: 30%
+}
+
+.inizia-ora h2 {
+    margin-bottom: 0;
+    flex-basis: 50%;
+}
+
+.inizia-ora .btn-start-trial {
+    margin: 0;
+}
+
 /* domande-frequenti */
 /* in footer */
