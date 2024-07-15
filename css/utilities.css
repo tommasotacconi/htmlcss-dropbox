@@ -17,6 +17,10 @@
     --mh-xxxl: 700px;
 }
 
+.lheight-m {
+    line-height: 30px
+}
+
 .text-aling-right{
     text-align: right;
 }
@@ -39,6 +43,12 @@
 
 .dashed-border-alternative {
     border: 3px dashed hotpink;
+}
+
+.separator-div {
+    border: 1px solid slategrey;
+    width: 20%;
+    margin: 40px 0;
 }
 
 .d-flex {

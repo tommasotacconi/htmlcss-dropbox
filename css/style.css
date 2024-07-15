@@ -30,7 +30,7 @@ section {
 }
 
 footer {
-    padding: 30px;
+    padding: 80px 30px 30px;
     color: white;
 }
 
@@ -200,12 +200,6 @@ hr {
     height: 100%;
 }
 
-.separatore {
-    border: 1px solid slategrey;
-    width: 20%;
-    margin: 40px 0;
-}
-
 .big-company-using-dropbox .central-card p {
     margin-bottom: 60px;
 }
@@ -265,3 +259,31 @@ padding: var(--sec-pd-xxxl) 0;
 }
 
 /* in footer */
+.footer-container.container-xl {
+    min-height: 0;
+}
+
+.nav-card.container-xl {
+    min-height: 0;
+    margin-bottom: 100px;
+}
+
+.column-links {
+    width: calc(100% / 5);
+}
+
+footer h3 {
+    margin-bottom: 20px;
+}
+
+footer .separator-div {
+    width: 80px;
+}
+
+.language-selector-box > .fa-earth-americas {
+    margin-right: 10px;
+}
+
+.language-selector-box .fa-caret-up {
+    font-size: 10px;
+}
