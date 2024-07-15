@@ -72,10 +72,12 @@ h2 {
     margin-bottom: 50px;
 }
 
-hr {
-    width: 20%;
-    margin: 50px 0;
-    border: 0.5px solid lightgrey;
+h3 {
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
 }
 
 /* Utilities */
@@ -94,7 +96,6 @@ hr {
     border: 2px solid #a4c8f7;
     padding: 8.4px 10.4px;
 }
-
 
 /* in header */
 #logo-anchor {
@@ -154,7 +155,7 @@ header .btn-start {
     position: absolute;
     top: 0;
     left: -10px;
-    height: 350px;
+    width: 650px;
 }
 
 .container-jumbotrone span {
@@ -213,7 +214,6 @@ header .btn-start {
 
 .piani-abbonamento h3 {
     margin-bottom: 15px;
-    font-size: 20px;
 }
 
 .plan-details-price {
@@ -345,6 +345,10 @@ header .btn-start {
 /* in dropbox-funzionalità */
 .dropbox-funzionalità {
     padding-top: var(--sec-pd-xxxl);
+}
+
+.dropbox-funzionalità h3 {
+    margin-bottom: 20px;
 }
 
 /* in utilizzatori-dropbox-business */
