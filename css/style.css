@@ -301,10 +301,15 @@ padding: var(--sec-pd-xxxl) 0;
 
 .column-links {
     width: calc(100% / 5);
+    line-height: 35px;
 }
 
 footer h3 {
     margin-bottom: 20px;
+}
+
+footer a {
+    color: white;
 }
 
 footer .separator-div {
