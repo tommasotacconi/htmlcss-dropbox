@@ -24,6 +24,7 @@
 .text-aling-right{
     text-align: right;
 }
+
 .container-lg {
     max-width: 900px;
     margin: 0 auto;
@@ -50,6 +51,36 @@
     width: 20%;
     margin: 40px 0;
 }
+
+.btn {
+    font-size: 16px;
+    padding: 7px 12px;
+    border: 0;
+}
+
+.btn-mouse-on:hover {
+    background-color: #3b7cff;
+    border: 1px solid #fff;
+    padding: 6.2px 11.2px;
+    cursor: pointer;
+}
+
+.btn-big {
+    font-size: 20px;
+    padding: 16px 22px;
+    border-radius: 26px;
+    margin: 5px 20px;
+    border: 0;
+}
+
+.btn-big-mouse-on:hover {
+    background-color: #eaeaea;
+    border: 1px solid #6b84de;
+    padding: 15px 21px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
 
 .d-flex {
     display: flex;
@@ -111,6 +142,14 @@
 
 .gap-sm {
     gap: 30px;
+}
+
+.bdColor-bianco {
+    background-color: #fff;
+}
+
+.bdColor-bianco-fumo {
+    background-color: whitesmoke;
 }
 
 .bdColor-cielo {

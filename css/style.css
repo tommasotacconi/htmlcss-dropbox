@@ -11,14 +11,14 @@ body {
 }
 
 header {
+    font-size: 14px;
+    height: 60px;
     position: fixed;
     left: 0px;
     right: 0px;
     top: 0px;
     z-index: 1;
-    color: black;
-    font-size: 14px;
-    height: 60px;
+    filter: drop-shadow(0 0 10px #444444);
 }
 
 main > div {
@@ -57,8 +57,8 @@ ul {
     list-style-type: none;
     
     a {
+        color: #000;
         text-decoration: none;
-        color: white;
         margin-right: 10px;
     }
 }
@@ -81,13 +81,34 @@ hr {
 /* Utilities */
 
 /* in header */
-.header-logo img {
+#logo-anchor {
     display: block;
-    margin: 0 10px;
+}
+
+header ul {
+    line-height: 60px;
+}
+
+header li img {
+    display: block;
+}
+
+header li {
+    margin-right: 10px;
+}
+
+header li#logo-anchor-li {
+    margin-left: 10px;
+}
+
+header .btn-start {
+    font-size: 14px;
 }
 
 .btn-start {
     margin-right: 10px;
+    background-color: #0055ff;
+    color: #fff;
 }
 
 /* in .sezione-jumbotrone */
