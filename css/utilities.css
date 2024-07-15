@@ -21,7 +21,11 @@
     line-height: 30px
 }
 
-.text-aling-right{
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right{
     text-align: right;
 }
 
@@ -81,6 +85,10 @@
     cursor: pointer;
 }
 
+/* assegna il bordo ai figli diretti */
+.child-thin-border > * {
+    border: 1px solid lightgray;
+}
 
 .d-flex {
     display: flex;
