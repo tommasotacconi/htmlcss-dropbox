@@ -356,13 +356,14 @@ header .btn-start {
     padding-top: var(--sec-pd-xxxl)
 }
 
-/* big-company-using-dropbox */
-.big-company-using-dropbox > .row {
-    height: 450px;
-}
+/* in big-company-using-dropbox */
+/* .big-company-using-dropbox > .row {
+    
+} */
 
 .big-company-using-dropbox .column {
-    flex-basis: calc(100% / 3);
+    flex-basis: calc(100vw / 3);
+    height: calc(100vw / 3);
 }
 
 .side-card-subcontainer, central-card {
@@ -372,6 +373,16 @@ header .btn-start {
 .side-card-subcontainer .card {
     flex-basis: 50%;
     flex-shrink: 0;
+}
+
+.side-card-subcontainer .card img{
+    width: 60%;
+    filter: invert(1);
+}
+
+#arizona-logo {
+    filter: invert(0);
+    height: 80px;
 }
 
 .central-card {

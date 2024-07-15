@@ -112,6 +112,13 @@
     /* gap: var(--space); */
 }
 
+/* centra il contenuto dei propri figli */
+.child-flex-row-center > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .childs-flex-row-center > * {
     display: flex;
     justify-content: center;
@@ -190,4 +197,12 @@
 
 .bdColor-pesca {
     background-color: peachpuff;
+}
+
+.bdColor-greenyellow {
+    background-color: greenyellow;
+}
+
+.bdColor-red {
+    background-color: red;
 }
