@@ -60,8 +60,8 @@
 
 .btn-mouse-on:hover {
     background-color: #3b7cff;
-    border: 1px solid #fff;
-    padding: 6.2px 11.2px;
+    border: 2px solid whitesmoke;
+    padding: 5.4px 10.4px;
     cursor: pointer;
 }
 
@@ -153,7 +153,7 @@
 }
 
 .bdColor-cielo {
-    background-color: skyblue;
+    background-color: #a4c8f7;
 }
 
 .bdColor-blu-cadetto {
