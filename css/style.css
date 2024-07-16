@@ -245,7 +245,6 @@ header .btn-start {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
 }
-/*  */
 
 .plan-details ul.main-aspects-list li:first-child::marker {
     font-family: "Font Awesome 5 Free";
@@ -357,10 +356,6 @@ header .btn-start {
 }
 
 /* in big-company-using-dropbox */
-/* .big-company-using-dropbox > .row {
-    
-} */
-
 .big-company-using-dropbox .column {
     flex-basis: calc(100vw / 3);
     height: calc(100vw / 3);
@@ -393,7 +388,7 @@ header .btn-start {
     margin-bottom: 60px;
 }
 
-/* inizia-ora */
+/* in inizia-ora */
 .inizia-ora, 
 .container-inizia-ora.container-lg {
     min-height: 0;
@@ -417,7 +412,7 @@ padding: var(--sec-pd-xxxl) 0;
     margin: 0;
 }
 
-/* domande-frequenti */
+/* in domande-frequenti */
 .domande-frequenti,
 .container-domande-frequenti {
     min-height: 0;
