@@ -159,8 +159,9 @@ header .btn-start {
     width: 650px;
 }
 
-.container-jumbotrone span {
+.container-jumbotrone a {
     font-size: 2rem;
+    color: #000;
 }
 
 .container-jumbotrone p:last-of-type{
