@@ -366,28 +366,27 @@ header .btn-start {
     height: calc(100vw / 3);
 }
 
-.side-card-subcontainer, central-card {
-    min-height: 100%;
+.side-card-subcontainer, .central-card {
+    height: 100%;
 }
 
-.side-card-subcontainer .card {
+.side-card-subcontainer .img-box {
     flex-basis: 50%;
+    height: 50%;
     flex-shrink: 0;
 }
 
-.side-card-subcontainer .card img{
+.side-card-subcontainer .img-box img{
     width: 60%;
     filter: invert(1);
 }
 
-#arizona-logo {
-    filter: invert(0);
-    height: 80px;
-}
-
 .central-card {
     padding: 30px;
-    height: 100%;
+}
+
+.central-card img {
+    width: 50%;
 }
 
 .big-company-using-dropbox .central-card p {
