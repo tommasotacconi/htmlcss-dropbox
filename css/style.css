@@ -411,11 +411,20 @@ padding: var(--sec-pd-xxxl) 0;
 .inizia-ora h2 {
     margin-bottom: 0;
     flex-basis: 50%;
+    color: #73231f;
 }
 
 .inizia-ora .btn-start-trial {
     margin: 0;
+    color: black;
+    background-color: #efefef ;
 }
+
+.inizia-ora .btn-start-trial:hover {
+    border-color: white;
+    background-color: #ccc;
+}
+
 
 /* in domande-frequenti */
 .domande-frequenti,

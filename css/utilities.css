@@ -218,16 +218,20 @@
     background-color: red;
 }
 
-.bdColor-grigio-chiaro {
-    background-color: #efefef;
+.bdColor-dark-red {
+    background-color: #d30000;
+}
+
+.bdColor-red-brown {
+    background-color: #73231f;
 }
 
 .bdColor-marrone {
     background-color: brown;
 }
 
-.bdColor-dark-red {
-    background-color: #d30000;
+.bdColor-grigio-chiaro {
+    background-color: #efefef;
 }
 
 .bdColor-deep-blue { 
