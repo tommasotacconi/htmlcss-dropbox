@@ -462,7 +462,7 @@ padding: var(--sec-pd-xxxl) 0;
     min-height: 0;
 }
 
-.nav-card.container-xl {
+#nav-card.container-xl {
     min-height: 0;
     margin-bottom: 100px;
 }
