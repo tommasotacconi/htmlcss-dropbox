@@ -167,8 +167,8 @@ header .btn-start {
     margin-bottom: 50px;
 }
  
-/* in piani-abbonamento */
-.piani-abbonamento { 
+/* in subscription-plans */
+#subscription-plans { 
     padding-top: 100px;
 }
 
@@ -213,7 +213,7 @@ header .btn-start {
     padding: 25px;
 }
 
-.piani-abbonamento h3 {
+#subscription-plans h3 {
     margin-bottom: 15px;
 }
 
@@ -343,25 +343,25 @@ header .btn-start {
 }
 
 /* in dropbox-funzionalità */
-.dropbox-funzionalità {
+#dropbox-functionalities {
     padding-top: var(--sec-pd-xxxl);
 }
 
-.dropbox-funzionalità h3 {
+#dropbox-functionalities h3 {
     margin-bottom: 20px;
 }
 
-/* in utilizzatori-dropbox-business */
-.utilizzatori-dropbox-business {
+/* in dropbox-business-users */
+#dropbox-business-users {
     padding-top: var(--sec-pd-xxxl)
 }
 
-.container-utilizzatori-dropbox-business {
+.container-dropbox-business-users {
     padding-right: 300px;
 }
 
 /* in big-company-using-dropbox */
-.big-company-using-dropbox .column {
+#big-company-using-dropbox .column {
     flex-basis: calc(100vw / 3);
     height: calc(100vw / 3);
 }
@@ -389,50 +389,50 @@ header .btn-start {
     width: 50%;
 }
 
-.big-company-using-dropbox .central-card p {
+#big-company-using-dropbox .central-card p {
     margin-bottom: 60px;
 }
 
-/* in inizia-ora */
-.inizia-ora, 
-.container-inizia-ora.container-lg {
+/* in start-now */
+#start-now, 
+.container-start-now.container-lg {
     min-height: 0;
 }
 
-.inizia-ora {
+#start-now {
 padding: var(--sec-pd-xxxl) 0;
 }
 
-.inizia-ora h2,
-.inizia-ora .button-container {
+#start-now h2,
+#start-now .button-container {
     min-height: 30%
 }
 
-.inizia-ora h2 {
+#start-now h2 {
     margin-bottom: 0;
     flex-basis: 50%;
     color: #73231f;
 }
 
-.inizia-ora .btn-start-trial {
+#start-now .btn-start-trial {
     margin: 0;
     color: black;
     background-color: #efefef ;
 }
 
-.inizia-ora .btn-start-trial:hover {
+#start-now .btn-start-trial:hover {
     border-color: white;
     background-color: #ccc;
 }
 
 
-/* in domande-frequenti */
-.domande-frequenti,
-.container-domande-frequenti {
+/* in faq */
+#faq,
+.container-faq {
     min-height: 0;
 }
 
-.domande-frequenti {
+#faq {
     padding: var(--sec-pd-xxxl) 0;
 }
 
