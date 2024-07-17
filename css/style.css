@@ -459,11 +459,30 @@ padding: var(--sec-pd-xxxl) 0;
 }
 
 .question-text {
-    width: calc(100% / 3 * 2);
+    flex-basis: calc(100% / 3 * 2);
 }
 
 .question-box .fa-angle-down {
     margin-right: 30px;
+}
+
+.question-box p {
+    display: none;
+}
+
+.question-box:hover {
+    .question-text {
+        flex-grow: 1;
+        padding: 0 10px;
+    }
+
+    h4, .fa-angle-down {
+        display: none;
+    }
+
+    p {
+        display: block;
+    }
 }
 
 /* in footer */
