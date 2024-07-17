@@ -104,7 +104,7 @@
     display: flex;
 }
 
-/* Assegna display:flex ai figli diretti */
+/* assegna display:flex ai figli diretti */
 .childs-d-flex- > * {
     display: flex;
 }
@@ -169,6 +169,11 @@
     gap: 30px;
 }
 /*  */
+
+/* hover effect */
+.childs-border-onhover li:hover a:not(#logo-anchor) {
+    border-bottom: 1.6px solid black;
+}
 
 .bdColor-bianco {
     background-color: #fff;
