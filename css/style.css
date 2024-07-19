@@ -62,13 +62,16 @@ ul {
     list-style-type: none;
     
     a:not(#logo-anchor) {
-        color: #000;
         text-decoration: none;
         margin-right: 10px;
         line-height: normal;
         padding: 18.8px 0;
         border-top: 2px solid transparent;
         border-bottom: 2px solid transparent;
+    }
+
+    a {
+        color: #000;
     }
 }
 
